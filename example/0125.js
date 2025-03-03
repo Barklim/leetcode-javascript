@@ -15,18 +15,13 @@
  * @return {boolean}
  */
 var isPalindrome = function(s) {
-  const string = s.replace(/[^A-Z\d]+/ig, '').toLowerCase();
-  return string.split('').reverse().join('') === string;
+
 };
 
+const example1 = isPalindrome("A man, a plan, a canal: Panama"  ); // true
+const example2 = isPalindrome("race a car"); // false
+const example3 = isPalindrome(" "); // true
 
-// s = s.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
-// let left = 0, right = s.length - 1;
-
-// while (left < right) {
-//   if (s[left] !== s[right]) return false;
-//   left++;
-//   right--;
-// }
-
-// return true;
+console.log(example1);
+console.log(example2);
+console.log(example3);
