@@ -22,6 +22,16 @@ var maxArea = function(height) {
 
 const example1 = maxArea([1,8,6,2,5,4,8,3,7]); // 49
 const example2 = maxArea([1,1]); // 1
+const example3 = maxArea([9,0,8]); // 16
+const example4 = maxArea([9,0,8,4,0,0,0,0,0,0,4]); // 40
+const example5 = maxArea([9,8,4,0,0,0,0,0,0,4]); // 36
+const example6 = maxArea([4,0,0,0,0,0,0,4]); // 28
+const example7 = maxArea([1,0,4,0,0,0,0,0,0,4]); // 28
 
 console.log(example1);
 console.log(example2);
+console.log(example3);
+console.log(example4);
+console.log(example5);
+console.log(example6);
+console.log(example7);
