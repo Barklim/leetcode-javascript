@@ -13,16 +13,12 @@
  * @param {character[]} s
  * @return {void} Do not return anything, modify s in-place instead.
  */
-var reverseString = function(s) {
-  for (let i = 0; i < Math.floor(s.length / 2); i++) {
-    [s[s.length - 1 - i], s[i]] = [s[i], s[s.length - 1 - i]];
-  }
+var reverseString = function (s) {
+
 };
 
-// let left = 0, right = s.length - 1;
-// while (left < right) {
-//   [s[left], s[right]] = [s[right], s[left]];
-//   left++;
-//   right--;
-// }
-// return s
+const example1 = reverseString(["h","e","l","l","o"]); // ["o","l","l","e","h"]
+const example2 = reverseString(["H","a","n","n","a","h"]); // ["h","a","n","n","a","H"]
+
+console.log(example1);
+console.log(example2);
