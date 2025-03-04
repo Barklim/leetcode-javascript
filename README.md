@@ -39,7 +39,7 @@ console.log(example3);
 
 ## Test cases
 
-Test cases is groupped inderections for learning in propper order for learning how it recommended in [neetcode](https://neetcode.io/roadmap)
+Test cases is groupped inderections for learning in propper order how it recommended in [neetcode](https://neetcode.io/roadmap)
 
 ```
 example
@@ -51,6 +51,6 @@ example
 
 ## Links
 
-[List of solutions](https://github.com/Barklim/leetcode-javascript/blob/master/README.md)
+[List of solutions](https://github.com/Barklim/leetcode-javascript/blob/master/README1.md)
 
 This repo is Copy of [leetcode-javascript](https://github.com/JoshCrozier/leetcode-javascript)

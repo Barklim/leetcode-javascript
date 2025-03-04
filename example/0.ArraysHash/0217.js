@@ -12,16 +12,12 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
-  return new Set(nums).size !== nums.length;
+
 };
 
-// var containsDuplicate = function(nums) {
-//   const set = new Set()
-//   for (let i = 0; i < nums.length; i++) {
-//       if (set.has(nums[i])) {
-//           return true
-//       }
-//       set.add(nums[i], i)
-//   }
-//   return false
-// }
+const example1 = containsDuplicate([1,2,3,3]); // true
+const example2 = containsDuplicate([1,2,3,4]); // false
+
+console.log(example1);
+console.log(example2);
+  
