@@ -14,22 +14,16 @@
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 var moveZeroes = function(nums) {
-  for (let i = 0, j = 0; i < nums.length; i++) {
-    if (nums[i] !== 0) {
-      [nums[i], nums[j++]] = [nums[j], nums[i]];
-    }
-  }
+
 };
 
-// write and reed
-// var moveZeroes = function(nums) {
-//   let w = 0;
-//   for (let r = 0; r < nums.length; r++) {
-//       if (nums[r] !== 0) {
-//           [nums[w], nums[r]] = [nums[r], nums[w]];
-//           w=w+1
-//       }
-//     }
+const example1 = moveZeroes([0,1,0,3,12]); // [1,3,12,0,0]
+const example2 = moveZeroes([0]); // [0]
+const example3 = moveZeroes([0,1,3,12]); // [1,3,12,0]
+const example4 = moveZeroes([0,1,0,3,12]); // [1,3,12]
 
-//   return nums
-// };
+console.log(example1);
+console.log(example2);
+console.log(example3);
+console.log(example4);
+  
