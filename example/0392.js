@@ -15,7 +15,7 @@
  * @param {string} t
  * @return {boolean}
  */
-var isSubsequence = function(sub, t) {
+var isSubsequence = function(s, t) {
 
 };
 

@@ -26,15 +26,15 @@ var isSubsequence = function(s, t) {
   return count === s.length;
 };
 
-// var isSubsequence = function(s, t) {
+// var isSubsequence = function(sub, t) {
 //   let p1 = 0;
 //   let p2 = 0;
-//   while (p1 < s.length && p2 < t.length) {
-//       if (s[p1] === t[p2]) {
+//   while (p1 < sub.length && p2 < t.length) {
+//       if (sub[p1] === t[p2]) {
 //           p1 += 1
 //       }
 //       p2 += 1
 //   }
 
-//   return p1 === s.length
+//   return p1 === sub.length
 // };
