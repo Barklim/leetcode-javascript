@@ -32,3 +32,63 @@ var merge = function(nums1, m, nums2, n) {
     nums1[i--] = nums1[m] > nums2[n] ? nums1[m--] : nums2[n--];
   }
 };
+
+// FOWARD
+// var merge = function(nums1, m, nums2, n) {
+//   let result = [];
+//   let p1 = 0;
+//   let p2 = 0;
+
+//   while (p1 < m && p2 < n) {
+//       if (nums1[p1] < nums2[p2]) {
+//           result.push(nums1[p1]);
+//           p1++;
+//       } else {
+//           result.push(nums2[p2]);
+//           p2++;
+//       }
+//   }
+
+//   while (p1 < m) {
+//       result.push(nums1[p1]);
+//       p1++;
+//   }
+
+//   while (p2 < n) {
+//       result.push(nums2[p2]);
+//       p2++;
+//   }
+
+//   for (let i = 0; i < result.length; i++) {
+//       nums1[i] = result[i];
+//   }
+
+//   return nums1
+// };
+
+
+// BACKWARD
+// var merge = function(nums1, m, nums2, n) {
+//   let p1 = m - 1;
+//   let p2 = n - 1;
+//   let result = m + n - 1;
+
+//   while (p1 >= 0 && p2 >= 0) {
+//       if (nums1[p1] > nums2[p2]) {
+//           nums1[result] = nums1[p1];
+//           p1--;
+//       } else {
+//           nums1[result] = nums2[p2];
+//           p2--;
+//       }
+//       result--;
+//   }
+
+//   while (p2 >= 0) {
+//       nums1[result] = nums2[p2];
+//       p2--;
+//       result--;
+//   }
+
+//   return nums1
+// };
