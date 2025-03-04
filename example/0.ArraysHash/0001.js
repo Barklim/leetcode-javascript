@@ -24,7 +24,9 @@ var twoSum = function (nums, target) {
 const example1 = twoSum([2, 7, 11, 15], 9); // [0,1]
 const example2 = twoSum([3, 2, 4], 6); // [1,2]
 const example3 = twoSum([3, 3], 6); // [0,1]
+const example4 = twoSum([4 ,5, 6], 10); // [0,2]
 
 console.log(example1);
 console.log(example2);
 console.log(example3);
+console.log(example4);
