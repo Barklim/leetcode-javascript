@@ -22,3 +22,26 @@ var trap = function(height) {
 
   return result;
 };
+
+// var trap = function(height) {
+//   let res = 0
+//   let left = 0
+//   let right = height.length - 1
+//   let maxLeft = height[left]
+//   let maxRight = height[right]
+
+//   while (left < right) {
+//       if (maxLeft < maxRight) {
+//           left++
+//           maxLeft = Math.max(maxLeft, height[left])
+//           res = res + (maxLeft - height[left])
+//           //
+//       } else {
+//           right--
+//           maxRight = Math.max(maxRight, height[right])
+//           res = res + (maxRight - height[right])
+//       }
+//   }
+
+//   return res
+// };
