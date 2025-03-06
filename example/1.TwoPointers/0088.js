@@ -32,10 +32,16 @@ const example2 = merge([1], 1 , [], 0); // [1]
 const example3 = merge([0], 0, [1], 1); // [1]
 const example4 = merge([1,2,0,0], 2, [5,6], 2); // [1,2,5,6]
 const example5 = merge([1,2,3,0,0,0], 4, [2,5,6], 2); //  [1, 2, 2, 3, 0, 5]
+const example6 = merge([1,2,3,4], 4, [5,6], 2); // [1,2,3,4,5,6]
+const example7 = merge([1,2,3,4], 2, [5,6], 2); // [1,2,5,6]
+const example8 = merge([1,2], 2, [3,4,5,6], 3); // [1,2,3,4,5]
 
 console.log(example1);
 console.log(example2);
 console.log(example3);
 console.log(example4);
 console.log(example5);
+console.log(example6);
+console.log(example7);
+console.log(example8);
   
