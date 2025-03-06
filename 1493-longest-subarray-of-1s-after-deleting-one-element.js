@@ -27,3 +27,27 @@ var longestSubarray = function(nums) {
 
   return max - (nums.includes(0) ? 0 : 1);
 };
+
+// 1004.
+// var longestSubarray = function(nums) {
+//   const k = 1
+//   let begin = 0
+//   let window_state = 0 
+//   let result = 0
+  
+//   for (let end = 0; end < nums.length; end++ ) {
+//       if (nums[end] === 0) {
+//           window_state += 1
+//       }
+
+//       while (window_state > k) {
+//           if (nums[begin] === 0) {
+//               window_state -= 1
+//           }
+//           begin++
+//       }
+//       result = Math.max(result, end - begin + 1)
+//   }
+
+//   return result - 1
+// };
