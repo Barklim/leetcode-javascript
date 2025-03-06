@@ -29,3 +29,35 @@ var findMaxAverage = function(nums, k) {
 
   return max / k;
 };
+
+// gpt
+// var findMaxAverage = function (nums, k) {
+//   let maxSum = nums.slice(0, k).reduce((acc, num) => acc + num, 0);
+//   let windowSum = maxSum;
+
+//   for (let end = k; end < nums.length; end++) {
+//     windowSum += nums[end] - nums[end - k];
+//     maxSum = Math.max(maxSum, windowSum);
+//   }
+
+//   return maxSum / k;
+// };
+
+// var findMaxAverage = function(nums, k) {
+//   let begin = 0; // Begin
+//   let window_state = 0; // WindowState
+//   let result = -Infinity;
+
+//   for (let end = 0; end < nums.length; end++) {
+//       window_state += nums[end];
+
+//       // end - begin = window size
+//       if (end - begin + 1 === k) { // Window condition
+//           result = Math.max(result, window_state);
+//           window_state -= nums[begin];
+//           begin++; // Shrink window
+//       }
+//   }
+  
+//   return result/k;
+// };
