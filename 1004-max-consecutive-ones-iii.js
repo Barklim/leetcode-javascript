@@ -27,3 +27,26 @@ var longestOnes = function(nums, k) {
 
   return right - left;
 };
+
+// var longestOnes = function(nums, k) {
+//   let begin = 0
+//   let window_state = 0 // this is how many zeros you saw
+//   let result = 0
+  
+//   for (let end = 0; end < nums.length; end++ ) {
+//       if (nums[end] === 0) {
+//           window_state += 1
+//       }
+
+//       // window condition - when count 0 > k
+//       while (window_state > k) {
+//           if (nums[begin] === 0) {
+//               window_state -= 1
+//           }
+//           begin++
+//       }
+//       result = Math.max(result, end - begin + 1)
+//   }
+
+//   return result
+// };
