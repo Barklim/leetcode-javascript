@@ -17,3 +17,20 @@ var isPalindrome = function(x) {
   if (x < 0) return false;
   return +String(x).split('').reverse().join('') === x;
 };
+
+// var isPalindrome = function (x) {
+//   if (x < 0) return false;
+
+//   const strNum = x.toString();
+//   let left = 0;
+//   let right = strNum.length - 1;
+
+//   while (left < right) {
+//       if (strNum[left] !== strNum[right]) {
+//           return false;
+//       }
+//       left++;
+//       right--;
+//   }
+//   return true;
+// };
