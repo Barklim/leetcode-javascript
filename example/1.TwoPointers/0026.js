@@ -32,8 +32,10 @@ const example1 = removeDuplicates([1,1,2]); // 2, nums = [1,2,_]
 const example2 = removeDuplicates([0,0,1,1,1,2,2,3,3,4]); // 5, nums = [0,1,2,3,4,_,_,_,_,_]
 const example3 = removeDuplicates([2,3,3,3,3]); // 2, nums = [2,3,_,_,_]
 const example4 = removeDuplicates([1]); // 1, nums = [1]
+const example5 = removeDuplicates([0,1,1,1,2,2,3,3,4]); // 5, nums = [0,1,2,3,4,_,_,_,_,_]
 
 console.log(example1);
 console.log(example2);
 console.log(example3);
 console.log(example4);
+console.log(example5);

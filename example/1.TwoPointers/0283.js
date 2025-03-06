@@ -20,10 +20,14 @@ var moveZeroes = function(nums) {
 const example1 = moveZeroes([0,1,0,3,12]); // [1,3,12,0,0]
 const example2 = moveZeroes([0]); // [0]
 const example3 = moveZeroes([0,1,3,12]); // [1,3,12,0]
-const example4 = moveZeroes([0,1,0,3,12]); // [1,3,12]
+const example4 = moveZeroes([0,1,0,3,12]); // [1,3,12,0,0]
+const example5 = moveZeroes([1,2,0,3,12]); // [1,2,3,12,0]
+const example6 = moveZeroes([0,0,0,1]); // [1,0,0,0]
 
 console.log(example1);
 console.log(example2);
 console.log(example3);
 console.log(example4);
+console.log(example5);
+console.log(example6);
   
