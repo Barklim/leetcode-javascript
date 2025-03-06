@@ -27,3 +27,23 @@ var minSubArrayLen = function(target, nums) {
 
   return result === Infinity ? 0 : result;
 };
+
+// var minSubArrayLen = function(target, nums) {
+//   let begin = 0
+//   let window_state = 0
+//   let result = Infinity;
+
+//   for (let end = 0; end < nums.length; end++) {
+//       window_state += nums[end]
+
+//       while (window_state >= target) {
+//           let window_size = end - begin + 1
+//           result = Math.min(result, window_size)
+//           window_state -= nums[begin]
+//           begin++
+//       }
+//   }
+
+//   if (result === Infinity) return 0
+//   return result
+// };
