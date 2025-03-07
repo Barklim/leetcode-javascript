@@ -18,25 +18,16 @@
  * @return {number}
  */
 var maxProfit = function(prices) {
-  let max = 0;
 
-  for (let i = 0, min = prices[0]; i < prices.length; i++) {
-    min = Math.min(min, prices[i]);
-    max = Math.max(max, prices[i] - min);
-  }
-
-  return max;
 };
+  
 
-// var maxProfit = function(prices) {
-//   let max_Profit = 0
-//   let current_min = prices[0]
+const example1 = maxProfit([7,1,5,3,6,4]); // 5
+const example2 = maxProfit([7,6,4,3,1]); // 0
+const example3 = maxProfit([10,1,5,6,7,1]); // 6
+const example4 = maxProfit([10,8,7,5,2]); // 0
 
-//   for (let i = 0; i < prices.length; i++) {
-//       let price = prices[i]
-//       max_Profit = Math.max(max_Profit, price - current_min)
-//       current_min = Math.min(current_min, price)
-//   }
-
-//   return max_Profit
-// };
+console.log(example1);
+console.log(example2);
+console.log(example3);
+console.log(example4);
