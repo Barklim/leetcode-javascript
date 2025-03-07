@@ -20,3 +20,19 @@ var lengthOfLongestSubstring = function(s) {
     return Math.max(max, i - offset + 1);
   }, 0);
 };
+
+// var lengthOfLongestSubstring = function(s) {
+//   let begin = 0;
+//   const window_state = new Set(); // charSet
+//   let result = 0;
+
+//   for (let end = 0; end < s.length; end++) {
+//       while (window_state.has(s[end])) {
+//           window_state.delete(s[begin]);
+//           begin++;
+//       }
+//       window_state.add(s[end]);
+//       result = Math.max(result, end - begin + 1);
+//   }
+//   return result;
+// };
