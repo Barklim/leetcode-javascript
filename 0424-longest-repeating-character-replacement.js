@@ -30,3 +30,28 @@ var characterReplacement = function(s, k) {
     return Math.max(maxLength, right - left + 1);
   }, 0);
 };
+
+// var characterReplacement = function(s, k) {
+//   const window_state = new Set(s); // charSet
+//   let result = 0;
+
+//   for (let char of window_state) {
+//       let begin = 0;
+//       let count = 0
+//       for (let end = 0; end < s.length; end++) {
+//           if (s[end] === char) {
+//               count++;
+//           }
+
+//           while ((end - begin + 1) - count > k) {
+//               if (s[begin] === char) {
+//                   count--;
+//               }
+//               begin++;
+//           }
+
+//           result = Math.max(result, end - begin + 1);
+//       }
+//   }
+//   return result;
+// };
