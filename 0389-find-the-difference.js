@@ -22,3 +22,10 @@ var findTheDifference = function(s, t) {
   s.split('').forEach(c => map.set(c, map.get(c) - 1));
   return Array.from(map).find(([letter, count]) => count)[0];
 };
+
+// var findTheDifference = function(s, t) {
+//   const map = new Map()
+//   t.split('').forEach(char => map.set(char, (map.get(char) || 0 ) + 1))
+//   s.split('').forEach(char => map.set(char, map.get(char) - 1))
+//   return Array.from(map).find(([char, count]) => count)[0]
+// };

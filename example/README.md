@@ -202,3 +202,4 @@ Better order to solve problems
 ### [0.Basic](https://github.com/Barklim/leetcode-javascript/tree/master/example/ProgrammingSkills/0.Basic)
 
 1768. Merge Strings Alternately
+389. Find the Difference
