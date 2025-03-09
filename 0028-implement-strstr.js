@@ -24,3 +24,7 @@ var strStr = function(haystack, needle) {
   const split = haystack.split(needle);
   return split.length > 1 ? split[0].length : -1;
 };
+
+// var strStr = function(haystack, needle) {
+//   return haystack.indexOf(needle)  
+// };

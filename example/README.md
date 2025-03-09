@@ -43,6 +43,10 @@ Better order to solve problems
 0. 
 121. Best Time to Buy and Sell Stock
 424. Longest Repeating Character Replacement
+- 424. Longest Repeating Character Replacement
+- 567. Permutation in String
+- 76. Minimum Window Substring
+- 239. Sliding Window Maximum
 
 ### Linked list
 
@@ -203,3 +207,4 @@ Better order to solve problems
 
 1768. Merge Strings Alternately
 389. Find the Difference
+28. Find the Index of the First Occurrence in a String
