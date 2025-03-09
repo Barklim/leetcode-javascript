@@ -39,3 +39,7 @@ var plusOne = function(digits) {
 var plusOne = function(digits) {
   return String(BigInt(digits.join('')) + BigInt(1)).split('');
 };
+
+// var plusOne = function(digits) {
+//   return String(parseInt(digits.join('')) + 1).split('');
+// };

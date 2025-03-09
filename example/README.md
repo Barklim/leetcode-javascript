@@ -208,3 +208,5 @@ Better order to solve problems
 1768. Merge Strings Alternately
 389. Find the Difference
 28. Find the Index of the First Occurrence in a String
+459. Repeated Substring Pattern
+66. Plus One
