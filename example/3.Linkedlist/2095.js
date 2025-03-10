@@ -27,30 +27,55 @@ var deleteMiddle = function(head) {
 
 };
 
-const myLinkedList = new MyLinkedList();
+const myLinkedList = new LinkedList();
 let head = myLinkedList.head;
-myLinkedList.addAtHead(1);
-myLinkedList.addAtTail(2);
-myLinkedList.addAtTail(3);
-myLinkedList.addAtTail(4);
-myLinkedList.addAtTail(5);
-myLinkedList.addAtTail(6);
-myLinkedList.addAtTail(7);
+myLinkedList.prepend(1);
+myLinkedList.append(2);
+myLinkedList.append(3);
+myLinkedList.append(4);
+myLinkedList.append(5);
+myLinkedList.append(6);
+myLinkedList.append(7);
 
 console.log('deleteNode');
 console.log(myLinkedList.toArray().join(',')); 
 
 console.log('deleteNode 4');
-deleteMiddle(head) // 123 4 567 // 123 567
+deleteMiddle(myLinkedList.head) // 123 4 567 // 123 567
 console.log(myLinkedList.toArray().join(',')); 
 
-console.log('deleteNode 35'); // 12 3 5 67 // 12 5 67
-deleteMiddle(head)
+console.log('deleteNode 35'); // 12 3 5 67 // 12 3 67
+deleteMiddle(myLinkedList.head)
 console.log(myLinkedList.toArray().join(','));
 
 console.log('deleteNode 3'); // 12 3 67 // 12 67
-deleteMiddle(head)
+deleteMiddle(myLinkedList.head)
 console.log(myLinkedList.toArray().join(',')); 
+
+// const myLinkedList = new MyLinkedList();
+// let head = myLinkedList.head;
+// myLinkedList.addAtHead(1);
+// myLinkedList.addAtTail(2);
+// myLinkedList.addAtTail(3);
+// myLinkedList.addAtTail(4);
+// myLinkedList.addAtTail(5);
+// myLinkedList.addAtTail(6);
+// myLinkedList.addAtTail(7);
+
+// console.log('deleteNode');
+// console.log(myLinkedList.toArray().join(',')); 
+
+// console.log('deleteNode 4');
+// deleteMiddle(head) // 123 4 567 // 123 567
+// console.log(myLinkedList.toArray().join(',')); 
+
+// console.log('deleteNode 35'); // 12 3 5 67 // 12 3 67
+// deleteMiddle(head)
+// console.log(myLinkedList.toArray().join(','));
+
+// console.log('deleteNode 3'); // 12 3 67 // 12 67
+// deleteMiddle(head)
+// console.log(myLinkedList.toArray().join(',')); 
 
 
 

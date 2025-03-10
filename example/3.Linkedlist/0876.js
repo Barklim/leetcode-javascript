@@ -24,25 +24,48 @@ var middleNode = function(head) {
 
 };
 
-const myLinkedList = new MyLinkedList();
+const myLinkedList = new LinkedList();
 let head = myLinkedList.head;
-myLinkedList.addAtHead(1);
-myLinkedList.addAtTail(2);
-myLinkedList.addAtTail(3);
+myLinkedList.prepend(1);
+myLinkedList.append(2);
+myLinkedList.append(3);
+
+const runMiddleNode = () => middleNode(myLinkedList.head).value
 
 console.log('middleNode');
-console.log(middleNode(head).val); // 1 2 3 // 2
-myLinkedList.addAtTail(4);
-console.log(middleNode(head).val); // 1 2 3 4 // 2
-myLinkedList.addAtTail(5);
-console.log(middleNode(head).val); // 12 3 45 // 3
-myLinkedList.addAtTail(6);
-console.log(middleNode(head).val); // 12 3 4 56 // 3
-myLinkedList.addAtTail(7);
-myLinkedList.addAtTail(8);
-console.log(middleNode(head).val); // 123 4 5 678 // 4
-myLinkedList.addAtTail(9);
-console.log(middleNode(head).val); // 1234 5 6789 // 5
+console.log(myLinkedList.toString()); // 123
+console.log(runMiddleNode()); // 1 2 3 // 2
+myLinkedList.append(4);
+console.log(runMiddleNode()); // 1 2 3 4 // 3
+myLinkedList.append(5);
+console.log(runMiddleNode()); // 12 3 45 // 3
+myLinkedList.append(6);
+console.log(runMiddleNode()); // 12 3 4 56 // 4
+myLinkedList.append(7);
+myLinkedList.append(8);
+console.log(runMiddleNode()); // 123 4 5 678 // 5
+myLinkedList.append(9);
+console.log(runMiddleNode()); // 1234 5 6789 // 5
+
+// const myLinkedList = new MyLinkedList();
+// let head = myLinkedList.head;
+// myLinkedList.addAtHead(1);
+// myLinkedList.addAtTail(2);
+// myLinkedList.addAtTail(3);
+
+// console.log('middleNode');
+// console.log(middleNode(head).val); // 1 2 3 // 2
+// myLinkedList.addAtTail(4);
+// console.log(middleNode(head).val); // 1 2 3 4 // 3
+// myLinkedList.addAtTail(5);
+// console.log(middleNode(head).val); // 12 3 45 // 3
+// myLinkedList.addAtTail(6);
+// console.log(middleNode(head).val); // 12 3 4 56 // 4
+// myLinkedList.addAtTail(7);
+// myLinkedList.addAtTail(8);
+// console.log(middleNode(head).val); // 123 4 5 678 // 5
+// myLinkedList.addAtTail(9);
+// console.log(middleNode(head).val); // 1234 5 6789 // 5
 
 
   
