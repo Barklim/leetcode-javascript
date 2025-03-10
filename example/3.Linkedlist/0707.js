@@ -74,6 +74,9 @@ console.log(myLinkedList);
 console.log(myLinkedList.get(1)); // 3
 console.log(myLinkedList.get(2)); // -1
 console.log(myLinkedList.get(3)); // -1
+myLinkedList.addAtTail(4);
+console.log(myLinkedList.get(2)); // 2
+console.log(myLinkedList);
 
 
 // class Node {
@@ -183,4 +186,17 @@ console.log(myLinkedList.get(3)); // -1
 
 //     this.length--
 // };
+
+// MyLinkedList.prototype.toArray = function() {
+//     const nodes = [];
+
+//     let currentNode = this.head;
+//     while (currentNode) {
+//         nodes.push(currentNode.val);
+//         currentNode = currentNode.next;
+//     }
+
+//     return nodes;
+// };
+
 

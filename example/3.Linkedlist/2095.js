@@ -24,21 +24,33 @@
  * @return {ListNode}
  */
 var deleteMiddle = function(head) {
-    // slow = head
-    // fast = head.next.next
-    let slow = new Node(0, null, head);
-    let fast = head;
-  
-    if (!head.next) {
-      return null;
-    }
-  
-    while (fast && fast.next) {
-      slow = slow.next;
-      fast = fast.next.next;
-    }
-  
-    slow.next = slow.next.next;
-  
-    return head;
+
 };
+
+const myLinkedList = new MyLinkedList();
+let head = myLinkedList.head;
+myLinkedList.addAtHead(1);
+myLinkedList.addAtTail(2);
+myLinkedList.addAtTail(3);
+myLinkedList.addAtTail(4);
+myLinkedList.addAtTail(5);
+myLinkedList.addAtTail(6);
+myLinkedList.addAtTail(7);
+
+console.log('deleteNode');
+console.log(myLinkedList.toArray().join(',')); 
+
+console.log('deleteNode 4');
+deleteMiddle(head) // 123 4 567 // 123 567
+console.log(myLinkedList.toArray().join(',')); 
+
+console.log('deleteNode 35'); // 12 3 5 67 // 12 5 67
+deleteMiddle(head)
+console.log(myLinkedList.toArray().join(','));
+
+console.log('deleteNode 3'); // 12 3 67 // 12 67
+deleteMiddle(head)
+console.log(myLinkedList.toArray().join(',')); 
+
+
+
