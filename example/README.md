@@ -57,7 +57,7 @@ Better order to solve problems
 234. Palindrome Linked List
 83. Remove Duplicates from Sorted List
 19. Remove Nth Node from End of List
-43. Swap Nodes in Pairs
+24. Swap Nodes in Pairs
 21. Merge Two sorted Lists
 141. Linked List Cycle
 

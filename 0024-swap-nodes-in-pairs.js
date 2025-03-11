@@ -29,3 +29,23 @@ var swapPairs = function(head) {
 
   return result;
 };
+
+// var swapPairs = function(head) {
+//   let dummy = new LinkedListNode()
+//   dummy.next = head
+
+//   current = dummy
+
+//   while (current.next && current.next.next) {
+//       first = current.next
+//       second = current.next.next
+
+//       first.next = second.next
+//       second.next = first
+//       current.next = second
+
+//       current = first
+//   }
+
+//   return dummy.next
+// };
