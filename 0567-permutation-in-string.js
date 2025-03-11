@@ -36,3 +36,39 @@ var checkInclusion = function(s1, s2) {
 
   return isMatch(map1, map2);
 };
+
+// 6 solutions
+
+// var checkInclusion = function(s1, s2) {
+//   if (s1.length > s2.length) return false;
+
+//   // Массивы для подсчета количества букв
+//   const s1arr = new Array(26).fill(0);
+//   const s2arr = new Array(26).fill(0);
+
+//   // Заполняем массивы для первых символов
+//   for (let i = 0; i < s1.length; i++) {
+//       s1arr[s1.charCodeAt(i) - 'a'.charCodeAt(0)]++;
+//       s2arr[s2.charCodeAt(i) - 'a'.charCodeAt(0)]++;
+//   }
+
+//   // Проверка на соответствие
+//   const matches = (s1arr, s2arr) => {
+//       for (let i = 0; i < 26; i++) {
+//           if (s1arr[i] !== s2arr[i]) return false;
+//       }
+//       return true;
+//   };
+
+//   // Сдвигаем окно по строке s2
+//   for (let i = 0; i < s2.length - s1.length; i++) {
+//       if (matches(s1arr, s2arr)) return true;
+
+//       // Обновляем массивы для следующего окна
+//       s2arr[s2.charCodeAt(i + s1.length) - 'a'.charCodeAt(0)]++;
+//       s2arr[s2.charCodeAt(i) - 'a'.charCodeAt(0)]--;
+//   }
+
+//   // Последняя проверка на совпадение
+//   return matches(s1arr, s2arr);
+// };
