@@ -28,3 +28,46 @@ var isPalindrome = function(head) {
 
   return a === b;
 };
+
+// var isPalindrome = function(head) {
+//   var middle = function(head) {
+//       let slow = head;
+//       let fast = head;
+    
+//       while (fast && fast.next) {
+//         slow = slow.next;
+//         fast = fast.next.next;
+//       }
+    
+//       return slow;
+//   }
+
+//   var reverse = function(head) {
+//       let prev = null;
+//       let tail = head;
+    
+//       while (tail) {
+//         const next = tail.next;
+//         tail.next = prev;
+//         prev = tail;
+//         tail = next;
+//       }
+    
+//       return prev;
+//   }
+
+//   mid = middle(head)
+//   second = reverse(mid)
+//   first = head
+
+//   while (first && second) {
+//       // !!! value, val
+//       if (first.value !== second.value) {
+//           return false
+//       }
+//       first = first.next
+//       second = second.next
+//   }
+
+//   return true
+// };
