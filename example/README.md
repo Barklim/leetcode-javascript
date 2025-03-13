@@ -216,3 +216,8 @@ Better order to solve problems
 28. Find the Index of the First Occurrence in a String
 459. Repeated Substring Pattern
 66. Plus One
+
+### [0.Basic](https://github.com/Barklim/leetcode-javascript/tree/master/example/ProgrammingSkills/1.Simulation)
+
+58. Length of Last Word
+1041. Robot Bounded In Circle
