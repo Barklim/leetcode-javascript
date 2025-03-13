@@ -42,13 +42,12 @@ Better order to solve problems
 904. Fruit Into Baskets
 0. 
 121. Best Time to Buy and Sell Stock
-424. Longest Repeating Character Replacement
 - 424. Longest Repeating Character Replacement
 - 567. Permutation in String
 - 76. Minimum Window Substring
 - 239. Sliding Window Maximum
 
-### Linked list
+### [Linked list](https://github.com/Barklim/leetcode-javascript/tree/master/example/3.Linkedlist)
 
 707. Design Linked List
 876. Middle of the Linked List
@@ -60,6 +59,13 @@ Better order to solve problems
 24. Swap Nodes in Pairs
 21. Merge Two sorted Lists
 141. Linked List Cycle
+0. 
+143. Reorder List
+- 138. Copy List with Random Pointer
+- 2. Add Two Numbers
+- 287. Find the Duplicate Number
+- 23. Merge k Sorted Lists
+- 25. Reverse Nodes in k-Group
 
 ### HashMap
 
