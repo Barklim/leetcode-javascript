@@ -70,8 +70,12 @@ Better order to solve problems
 ### [Binary Search](https://github.com/Barklim/leetcode-javascript/tree/master/example/4.BinarySearch)
 
 704. Binary Search
-74. Search a 2D Matrix
-875. Koko Eating Bananas
+- 74. Search a 2D Matrix
+- 875. Koko Eating Bananas
+- 153. Find Minimum in Rotated Sorted Array
+- 33. Search in Rotated Sorted Array
+- 981. Time Based Key-Value Store
+- 4. Median of Two Sorted Arrays
 
 ### HashMap
 
