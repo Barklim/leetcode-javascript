@@ -67,6 +67,12 @@ Better order to solve problems
 - 23. Merge k Sorted Lists
 - 25. Reverse Nodes in k-Group
 
+### [Binary Search](https://github.com/Barklim/leetcode-javascript/tree/master/example/4.BinarySearch)
+
+704. Binary Search
+74. Search a 2D Matrix
+875. Koko Eating Bananas
+
 ### HashMap
 
 706. Design Hash map

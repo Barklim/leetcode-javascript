@@ -28,3 +28,17 @@ var search = function(nums, target) {
 
   return -1;
 };
+
+// var search = function(nums, target) {
+//   l = 0
+//   r = nums.length
+
+//   while (l <= r) {
+//       pivot = Math.floor((l + r) / 2)
+//       if (nums[pivot] === target) return pivot
+//       if (target < nums[pivot]) r = pivot - 1
+//       else l = pivot + 1
+//   }
+
+//   return - 1
+// };

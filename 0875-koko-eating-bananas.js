@@ -40,3 +40,26 @@ var minEatingSpeed = function(piles, h) {
 
   return result;
 };
+
+// var minEatingSpeed = function(piles, h) {
+//   l = 0
+//   r = Math.max(...piles)
+//   res = r
+
+//   while (l <= r) {
+//       m = Math.floor((l + r)/2)
+
+//       totalTime = 0
+//       for (const p of piles) {
+//           totalTime += Math.ceil( p / m)
+//       }
+
+//       if (totalTime <= h) {
+//           res = m
+//           r = m - 1
+//       } else {
+//           l = m + 1
+//       }
+//   }
+//   return res
+// };
