@@ -42,8 +42,8 @@ Better order to solve problems
 904. Fruit Into Baskets
 0. 
 121. Best Time to Buy and Sell Stock
-- 424. Longest Repeating Character Replacement
-- 567. Permutation in String
+424. Longest Repeating Character Replacement
+567. Permutation in String
 - 76. Minimum Window Substring
 - 239. Sliding Window Maximum
 
@@ -62,8 +62,8 @@ Better order to solve problems
 0. 
 143. Reorder List
 - 138. Copy List with Random Pointer
-- 2. Add Two Numbers
-- 287. Find the Duplicate Number
+2. Add Two Numbers
+287. Find the Duplicate Number
 - 23. Merge k Sorted Lists
 - 25. Reverse Nodes in k-Group
 
@@ -85,13 +85,20 @@ Better order to solve problems
 
 146. LRU Cache
 
-### Stack, Queue
+### [Stack, Queue](https://github.com/Barklim/leetcode-javascript/tree/master/example/5.Stack)
 
 20. Valid Parentheses
 1047. Remove All Adjacent duplicates in String
 2390. Removing Stars From a string
 71. Simplify Path
 933. Number of Recent Calls
+0. 
+155. Min Stack
+150. Evaluate Reverse Polish Notation
+22. Generate Parentheses
+739. Daily Temperatures
+853. Car Fleet
+84. Largest Rectangle in Histogram
 
 ### Binare Tree, DFS
 

@@ -31,3 +31,13 @@ var removeStars = function(s) {
   }
   return result.join('');
 };
+
+// var removeStars = function(s) {
+//   const stack = [];
+
+//   for (const char of s) {
+//       char === '*' ? stack.pop(): stack.push(char)
+//   }
+
+//   return stack.join('');
+// };
