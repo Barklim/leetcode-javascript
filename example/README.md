@@ -91,16 +91,16 @@ Better order to solve problems
 1047. Remove All Adjacent duplicates in String
 2390. Removing Stars From a string
 71. Simplify Path
-933. Number of Recent Calls
+- 933. Number of Recent Calls
 0. 
-155. Min Stack
-150. Evaluate Reverse Polish Notation
+- 155. Min Stack
+- 150. Evaluate Reverse Polish Notation
 22. Generate Parentheses
-739. Daily Temperatures
-853. Car Fleet
-84. Largest Rectangle in Histogram
+- 739. Daily Temperatures
+- 853. Car Fleet
+- 84. Largest Rectangle in Histogram
 
-### Binare Tree, DFS
+### [Binare Tree, DFS](https://github.com/Barklim/leetcode-javascript/tree/master/example/6.Tree)
 
 104. Maximum Depth of Binary Tree
 226. Invert Binary Tree
@@ -126,11 +126,21 @@ Better order to solve problems
 543. Diameter of Binary Tree (104 task)
 103. Binary Tree Zigzag level Order Traversal
 236. Lowest Common Ancestor of a Binary tree
+0. 
+572. Subtree of Another Tree
+1448. Count Good Nodes in Binary Tree
+230. Kth Smallest Element in a BST
+105. Construct Binary Tree from Preorder and Inorder Traversal
+124. Binary Tree Maximum Path Sum
+297. Serialize and Deserialize Binary Tree
 
 ### Trie, Autocomplete
 
 208. Implement trie
 1268. Search suggestion system
+0. 
+211. Design Add and Search Words Data Structure
+212. Word Search II
 
 ### Heap Pt.1
 

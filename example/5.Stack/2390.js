@@ -3,13 +3,7 @@
  * @return {string}
  */
 var removeStars = function(s) {
-  const stack = [];
 
-  for (const char of s) {
-      char === '*' ? stack.pop(): stack.push(char)
-  }
-
-  return stack.join('');
 };
 
 const example1 = removeStars('leet**cod*e'); // 'lecoe'
