@@ -134,7 +134,7 @@ Better order to solve problems
 124. Binary Tree Maximum Path Sum
 297. Serialize and Deserialize Binary Tree
 
-### Trie, Autocomplete
+### [Trie, Autocomplete](https://github.com/Barklim/leetcode-javascript/tree/master/example/7.Tries)
 
 208. Implement trie
 1268. Search suggestion system
