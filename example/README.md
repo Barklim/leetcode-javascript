@@ -258,3 +258,4 @@ Better order to solve problems
 
 58. Length of Last Word
 1041. Robot Bounded In Circle
+1572. Matrix Diagonal Sum
