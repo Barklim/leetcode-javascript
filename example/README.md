@@ -47,7 +47,7 @@ Better order to solve problems
 - 76. Minimum Window Substring
 - 239. Sliding Window Maximum
 
-### [Linked list](https://github.com/Barklim/leetcode-javascript/tree/master/example/3.Linkedlist)
+### [3.Linked list](https://github.com/Barklim/leetcode-javascript/tree/master/example/3.Linkedlist)
 
 707. Design Linked List
 876. Middle of the Linked List
@@ -66,8 +66,10 @@ Better order to solve problems
 287. Find the Duplicate Number
 - 23. Merge k Sorted Lists
 - 25. Reverse Nodes in k-Group
+1. 
+445. Add Two Numbers II
 
-### [Binary Search](https://github.com/Barklim/leetcode-javascript/tree/master/example/4.BinarySearch)
+### [4.Binary Search](https://github.com/Barklim/leetcode-javascript/tree/master/example/4.BinarySearch)
 
 704. Binary Search
 - 74. Search a 2D Matrix
@@ -236,6 +238,11 @@ Better order to solve problems
 62. Unique paths
 64. Minimum path sum
 72. Edit Distance 
+
+### Greedy
+### Advanced Graphs
+### Bit Manipulation
+### Math & Geometry
 
 ## Programming skills
 
