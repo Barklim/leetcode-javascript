@@ -142,7 +142,7 @@ Better order to solve problems
 211. Design Add and Search Words Data Structure
 212. Word Search II
 
-### Heap Pt.1
+### [Heap Pt.1]((https://github.com/Barklim/leetcode-javascript/tree/master/example/8.Heap))
 
 215. Kth Largest Element in an Array (минхипа максхипа)
 703. Kth Largest Element in a Stream
