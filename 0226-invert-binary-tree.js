@@ -21,3 +21,26 @@ var invertTree = function(node) {
   if (node) [node.left, node.right] = [invertTree(node.right), invertTree(node.left)];
   return node;
 };
+
+// var invertTree = function(root) {
+//   if (root === null) return null;
+
+//   const node = new TreeNode(root.value);
+
+//   node.right = invertTree(root.left);
+//   node.left = invertTree(root.right);
+
+//   return node;
+// };
+
+// var invertTree = function(root) {
+//   if (root == null) return null;
+//   const queue = new Queue([root]);
+//   while (!queue.isEmpty()) {
+//       let node = queue.pop();
+//       [node.left, node.right] = [node.right, node.left];
+//       if (node.left != null) queue.push(node.left);
+//       if (node.right != null) queue.push(node.right);
+//   }
+//   return root;
+// }
