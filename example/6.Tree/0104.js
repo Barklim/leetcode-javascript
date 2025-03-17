@@ -11,15 +11,16 @@
  * @return {number}
  */
 var maxDepth = function(root) {
-    
+
 };
 
-const example1 = maxDepth(); // [3,9,20,null,null,15,7] // 3
-const example2 = maxDepth(); // [1,null,2] // 2
-const example3 = maxDepth(); // [1,2,3,null,null,4] // 3
-const example4 = maxDepth(); // [] // 0
+const testCases = [
+    { input: [3,9,20,null,null,15,7], expected: 3 },
+    { input: [1,null,2], expected: 2 },
+    { input: [1,2,3,null,null,4], expected: 3 },
+    { input: [], expected: 0 }
+];
 
-console.log(example1);
-console.log(example2);
-console.log(example3);
-console.log(example4);
+const results = testCases.map(({ input }) => maxDepth(createTreeFromArray(input)));
+
+console.log(results);

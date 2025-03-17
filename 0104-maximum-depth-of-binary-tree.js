@@ -28,3 +28,10 @@ var maxDepth = function(root) {
   const [left, right] = [root.left, root.right].map(maxDepth);
   return 1 + Math.max(left, right);
 };
+
+// var maxDepth = function(root) {
+//   if (!root) return 0;
+//   left = maxDepth(root.left)
+//   right = maxDepth(root.right)
+//   return 1 + Math.max(left, right);
+// };
