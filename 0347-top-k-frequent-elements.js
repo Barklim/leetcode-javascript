@@ -52,3 +52,25 @@ var topKFrequent = function(nums, k) {
 //       }
 //   }
 // };
+
+// var topKFrequent = function(nums, k) {
+//   const freqMap = new Map();
+  
+//   // Подсчёт частоты элементов
+//   for (const num of nums) {
+//       freqMap.set(num, (freqMap.get(num) || 0) + 1);
+//   }
+
+//   const minHeap = new MinHeapAdhoc();
+
+//   // Заполняем хипу
+//   for (const [num, freq] of freqMap.entries()) {
+//       minHeap.add([freq, num]);
+//       if (minHeap.heap.length > k) {
+//           minHeap.poll();
+//       }
+//   }
+
+//   // Извлекаем k самых частых элементов
+//   return minHeap.heap.map(item => item[1]);
+// }; 

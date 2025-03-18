@@ -34,3 +34,11 @@ Trie.prototype.startsWith = function(prefix) {
  * var param_2 = obj.search(word)
  * var param_3 = obj.startsWith(prefix)
  */
+
+const trie = new Trie();
+trie.insert("apple");
+trie.search("apple");   // return True
+trie.search("app");     // return False
+trie.startsWith("app"); // return True
+trie.insert("app");
+trie.search("app"); 

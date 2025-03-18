@@ -159,6 +159,10 @@ Better order to solve problems
 1962. Remove stones to minimize the total
 23. Merge k sorted Lists
 642. Design Search Autocomplete System
+0. 
+999. K Closest Points to Origin
+999. Task Scheduler
+999. Design Twitter
 
 ### [Intervals](https://github.com/Barklim/leetcode-javascript/tree/master/example/9.Intervals)
 
@@ -265,3 +269,82 @@ Better order to solve problems
 58. Length of Last Word
 1041. Robot Bounded In Circle
 1572. Matrix Diagonal Sum
+
+### [Strong List](structy.net)
+
+1. Depth-First Search (DFS)
+1. 79 - Word Search
+2. 200 - Number of Islands
+3. 695 - Max Area of Island
+4. 463 - Island Perimeter
+5. 733 - Flood Fill
+6. 130 - Surrounded Regions
+7. 417 - Pacific Atlantic Water Flow
+8. 261 - Graph Valid Tree
+9. 329 - Longest Increasing Path in a Matrix
+10. 688 - Knight Probability in Chessboard
+11. 332 - Reconstruct Itinerary
+12. 1306 - Jump Game III
+2. Breadth-First Search (BFS)
+1. 286 - Walls and Gates
+2. 542 - 01 Matrix
+3. 994 - Rotting Oranges
+4. 752 - Open the Lock
+5. 127 - Word Ladder
+6. 934 - Shortest Bridge
+7. 1466 - Reorder Routes to Make All Paths Lead to the City Zero
+8. 1162 - As Far from Land as Possible
+9. 815 - Bus Routes
+10. 1197 - Minimum Knight Moves
+11. 1091 - Shortest Path in Binary Matrix
+12. 1293 - Shortest Path in a Grid with Obstacles Elimination
+3. Topological Sort
+1. 207 (Course Schedule)
+2. 210 (Course Schedule II)
+3. 1136 (Parallel Courses)
+4. 310 (Minimum Height Trees)
+5. 444 (Sequence Reconstruction)
+6. 269 (Alien Dictionary)
+7. 802 Find Eventual Safe States
+8. 1203 Sort Items by Groups Respecting Dependencies
+9. 1192 Critical Connections in a Network (Tarjan's Algorithm)
+
+4. Dijkstra's Algorithm
+1. 743 - Network Delay Time
+2. 1334 - Find the City With the Smallest Number of Neighbors at a Threshold Distance
+3. 1514 - Path with Maximum Probability
+4. 1631 - Path With Minimum Effort
+5. 778 - Swim in Rising Water
+6. 1786 - Number of Restricted Paths From First to Last Node
+7. 787 - Cheapest Flights Within K Stops
+8 882 - Reachable Nodes In Subdivided Graph
+9. 1368 - Minimum Cost to Make at Least One Valid Path in a Grid
+10. 1791 - Minimum Number of Refueling Stops
+
+5. Union-Find (Disjoint Set Union)
+1. 547 - Number of Provinces
+2. 684 - Redundant Connection
+3. 721 - Accounts Merge
+4. 1584 - Min Cost to Connect All Points
+5. 990 - Satisfiability of Equality Equations
+6. 1319 - Number of Operations to Make Network Connected
+7. 1202 - Smallest String With Swaps
+8. 1632 - Rank Transform of a Matrix
+
+6. Floyd-Warshall / All-Pairs Shortest Path
+1. 1462 - Course Schedule IV
+2. 785 (Is Graph Bipartite?)
+3. 886 (Possible Bipartition)
+4. 1617 (Count Subtrees With Max Distance Between Cities)
+5. 1125 (Smallest Sufficient Team)
+
+### Prefix sum
+
+303. 
+724. 560. 304. 1314. 268. 
+287. 189. 896. 674. 
+
+### Tips && Trics
+
+102. = 199.
+100. = 101

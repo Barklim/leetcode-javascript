@@ -46,3 +46,28 @@ KthLargest.prototype.add = function(val) {
 
   return this.main.front().element;
 };
+
+// var KthLargest = function(k, nums) {
+//   this.k = k;
+//   this.min_heap = new MinHeapAdhoc();
+
+//   // Добавляем элементы в хипу и оставляем только k наибольших
+//   for (const num of nums) {
+//       this.min_heap.add(num);
+//       if (this.min_heap.heap.length > k) {
+//           this.min_heap.poll();
+//       }
+//   }
+// };
+
+// /** 
+// * @param {number} val
+// * @return {number}
+// */
+// KthLargest.prototype.add = function(val) {
+//   this.min_heap.add(val);
+//   if (this.min_heap.heap.length > this.k) {
+//       this.min_heap.poll();
+//   }
+//   return this.min_heap.heap[0]; // k-й по величине элемент
+// };
