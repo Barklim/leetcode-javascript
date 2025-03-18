@@ -14,14 +14,13 @@ var isBalanced = function(root) {
     
 };
 
-const example1 = isBalanced(); // root = [3,9,20,null,null,15,7] // true
-const example2 = isBalanced(); // root = [1,2,2,3,3,null,null,4,4] // false
-const example3 = isBalanced(); // root = [] // true
-const example4 = isBalanced(); // root = [1,2,3,null,null,4] // true
-const example5 = isBalanced(); // root = [1,2,3,null,null,4,null,5] // false
+const testCases = [
+    { input: [3,9,20,null,null,15,7], expected: true  },
+    { input: [1,2,2,3,3,null,null,4,4], expected: false },
+    { input: [] , expected: true  },
+    { input: [1,2,3,null,null,4], expected: true },
+    { input: [1,2,3,null,null,4,null,5], expected: false }
+];
 
-console.log(example1);
-console.log(example2);
-console.log(example3);
-console.log(example4);
-console.log(example5);
+const results = testCases.map(({ input }) => isBalanced(createTreeFromArray(input)));
+console.log(results);

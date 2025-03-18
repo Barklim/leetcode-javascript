@@ -38,3 +38,28 @@ function traverse(result, node, level = 0) {
   traverse(result, node.left, level + 1);
   traverse(result, node.right, level + 1);
 }
+
+// function levelOrder(root) {
+//   if (!root) return [];
+
+//   let result = [];
+//   let queue = [root];
+
+//   while (queue.length) {
+//     let levelSize = queue.length;
+//     let currentLevel = [];
+
+//     for (let i = 0; i < levelSize; i++) {
+//       let node = queue.shift();
+//       currentLevel.push(node.val);
+
+//       if (node.left) queue.push(node.left);
+//       if (node.right) queue.push(node.right);
+//     }
+
+//     result.push(currentLevel);
+//   }
+
+//   return result;
+// }
+

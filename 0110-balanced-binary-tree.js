@@ -28,3 +28,20 @@ function traverse(node, depth = 0) {
   if (!node) return depth;
   return Math.max(traverse(node.right, depth + 1), traverse(node.left, depth + 1));
 }
+
+// function isBalanced(root) {
+//   function height(node) {
+//     if (!node) return 0;
+//     return 1 + Math.max(height(node.left), height(node.right));
+//   }
+
+//   if (!root) return true;
+
+//   let leftH = height(root.left);
+//   let rightH = height(root.right);
+
+//   if (Math.abs(leftH - rightH) > 1) return false;
+
+//   return isBalanced(root.left) && isBalanced(root.right);
+// }
+

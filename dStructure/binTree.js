@@ -1,6 +1,6 @@
 class TreeNode {
-	constructor(value) {
-		this.value = value;
+	constructor(val) {
+		this.val = val;
 		this.left = null;
 		this.right = null
 	}
@@ -11,8 +11,8 @@ class BinaryTree {
 		this.root = null;
 	}
 
-	add(value) {
-		const newNode = new TreeNode(value)
+	add(val) {
+		const newNode = new TreeNode(val)
 		if (!this.root) {
 			this.root = newNode;
 			return;
@@ -21,7 +21,7 @@ class BinaryTree {
 		let currentNode = this.root;
 
 		while(currentNode) {
-			if (newNode.value < currentNode.value) {
+			if (newNode.val < currentNode.val) {
 				if (!currentNode.left) {
 					currentNode.left = newNode;
 					return;
@@ -40,13 +40,13 @@ class BinaryTree {
 		}
 	}
 
-	search(value) {
+	search(val) {
 		let currentNode = this.root;
 		while (currentNode) {
-			if (value === currentNode.value) {
+			if (val === currentNode.val) {
 				return currentNode;
 			}
-			if (value < currentNode.value) {
+			if (val < currentNode.val) {
 				currentNode = currentNode.left;
 			} else {
 				currentNode = currentNode.right;
@@ -57,7 +57,7 @@ class BinaryTree {
 
     print(root = this.root) {
         if (!root) return true
-        console.log(root.value)
+        console.log(root.val)
         this.print(root.left)
         this.print(root.right)
     }
@@ -89,15 +89,40 @@ function createTreeFromArray(arr) {
     return root;
 }
 
-const myTree = new BinaryTree();
-const treeFromArray = createTreeFromArray([3,9,20,null,null,15,7]);
-var myTreeStringify = JSON.stringify(treeFromArray, null, 2);
+var levelOrder = function(root) {
+    if (!root) return [];
 
-const foundNode = myTree.search(10);
+    let result = [];
+    let queue = [root];
+  
+    while (queue.length) {
+      let levelSize = queue.length;
+      let currentLevel = [];
+  
+      for (let i = 0; i < levelSize; i++) {
+        let node = queue.shift();
+        currentLevel.push(node.val);
+  
+        if (node.left) queue.push(node.left);
+        if (node.right) queue.push(node.right);
+      }
+  
+      result.push(currentLevel);
+    }
+  
+    return result;
+};
 
-console.log('!!! myTree');
-// console.log(myTree);
-// console.log(myTree.print());
-console.log(myTreeStringify);
-// console.log(foundNode);
-console.log('!!!');
+// const myTree = new BinaryTree();
+// const treeFromArray = createTreeFromArray([3,9,20,null,null,15,7]);
+// var myTreeStringify = JSON.stringify(treeFromArray, null, 2);
+
+// const foundNode = myTree.search(10);
+
+// console.log('!!! myTree');
+// // console.log(myTree);
+// // console.log(myTree.print());
+// console.log(myTreeStringify);
+// // console.log(foundNode);
+// // levelOrder(createTreeFromArray([3,9,20,null,null,15,7]))
+// console.log('!!!');

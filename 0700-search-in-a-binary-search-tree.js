@@ -32,3 +32,6 @@ var searchBST = function(root, val) {
 
   return null;
 };
+
+// Or recursive
+// searchBST(root.left, val)

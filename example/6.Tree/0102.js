@@ -11,15 +11,15 @@
  * @return {number[][]}
  */
 var levelOrder = function(root) {
-    
+
 };
 
-const example1 = levelOrder(); // root = [3,9,20,null,null,15,7] // [[3],[9,20],[15,7]] 
-const example2 = levelOrder(); // root = [1] // [[1]]
-const example3 = levelOrder(); // root = [] // []
-const example4 = levelOrder(); // root = [1,2,3,4,5,6,7] // [[1],[2,3],[4,5,6,7]]
+const testCases = [
+    { input: [3,9,20,null,null,15,7], expected: [[3],[9,20],[15,7]]  },
+    { input: [1], expected: [[1]] },
+    { input: [] , expected: []  },
+    { input: [1,2,3,4,5,6,7], expected: [[1],[2,3],[4,5,6,7]] }
+];
 
-console.log(example1);
-console.log(example2);
-console.log(example3);
-console.log(example4);
+const results = testCases.map(({ input }) => levelOrder(createTreeFromArray(input)));
+console.log(results);

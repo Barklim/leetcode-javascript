@@ -14,12 +14,12 @@ var isSymmetric = function(root) {
     
 };
 
-const example1 = isSymmetric(); // [1,2,2,3,4,4,3] // true
-const example2 = isSymmetric(); // [1,2,2,null,3,null,3] // false
-const example3 = isSymmetric(); // [1,2,3,null,null,4] // 3
-const example4 = isSymmetric(); // [] // 0
+const testCases = [
+    { input: [1,2,2,3,4,4,3], expected: true  },
+    { input: [1,2,2,null,3,null,3], expected: false },
+    { input: [1,2,3,null,null,4], expected: false },
+    { input: [] , expected: true  },
+];
 
-console.log(example1);
-console.log(example2);
-console.log(example3);
-console.log(example4);
+const results = testCases.map(({ input }) => isSymmetric(createTreeFromArray(input)));
+console.log(results);

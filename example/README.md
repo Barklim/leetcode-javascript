@@ -244,6 +244,12 @@ Better order to solve problems
 ### Bit Manipulation
 ### Math & Geometry
 
+## [Blind 75 by BFE](https://www.greatfrontend.com/interviews/blind75)
+
+442. Find All Duplicates in an Array
+9999. End of Array Reachable
+9999. Maximum Sum in Contiguous Array
+
 ## Programming skills
 
 ### [0.Basic](https://github.com/Barklim/leetcode-javascript/tree/master/example/ProgrammingSkills/0.Basic)

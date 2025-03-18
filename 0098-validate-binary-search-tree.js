@@ -38,3 +38,23 @@ function traverse(root, min, max) {
 
   return traverse(root.left, min, root.val) && traverse(root.right, root.val, max);
 }
+
+// function isValidBST(root) {
+//   if (!root) return true;
+
+//   let stack = [[root, -Infinity, Infinity]];
+
+//   while (stack.length) {
+//     let [node, minR, maxR] = stack.pop();
+//     if (!node) continue;
+
+//     if (node.val <= minR || node.val >= maxR) {
+//       return false;
+//     }
+
+//     stack.push([node.left, minR, node.val]);
+//     stack.push([node.right, node.val, maxR]);
+//   }
+
+//   return true;
+// }

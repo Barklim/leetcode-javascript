@@ -14,10 +14,12 @@ var isValidBST = function(root) {
     
 };
 
-const example1 = isValidBST(); // root = [2,1,3] // true
-const example2 = isValidBST(); // root = [5,1,4,null,null,3,6] // false
-const example3 = isValidBST(); // root = [1,2,3] // false
+const testCases = [
+    { input: [2,1,3], expected: true  },
+    { input: [5,1,4,null,null,3,6], expected: false },
+    { input: [1,2,3], expected: false },
+    { input: [] , expected: true },
+];
 
-console.log(example1);
-console.log(example2);
-console.log(example3);
+const results = testCases.map(({ input }) => isValidBST(createTreeFromArray(input)));
+console.log(results);

@@ -13,12 +13,13 @@
  */
 var hasPathSum = function(root, targetSum) {
     
-};
+};  
 
-const example1 = hasPathSum(); // root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22 // true
-const example2 = hasPathSum(); // root = [1,2,3], targetSum = 5 // false
-const example3 = hasPathSum(); // root = [], targetSum = 0 // false
+const testCases = [
+    { input: [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum: 22, expected: true  },
+    { input: [1,2,3], targetSum: 5, expected: false },
+    { input: [] , targetSum: 0, expected: false },
+];
 
-console.log(example1);
-console.log(example2);
-console.log(example3);
+const results = testCases.map(({ input, targetSum }) => hasPathSum(createTreeFromArray(input), targetSum));
+console.log(results);

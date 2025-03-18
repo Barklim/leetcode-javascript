@@ -42,3 +42,25 @@ function traverse(result, node, sum = 0) {
   if (node.left) traverse(result, node.left, sum + node.val);
   if (node.right) traverse(result, node.right, sum + node.val);
 }
+
+// function hasPathSum(root, targetSum) {
+//   if (!root) return false;
+
+//   let stack = [[root, 0]];
+
+//   while (stack.length) {
+//     let [node, currentSum] = stack.pop();
+//     if (!node) continue;
+
+//     currentSum += node.val;
+
+//     if (!node.left && !node.right && currentSum === targetSum) {
+//       return true;
+//     }
+
+//     stack.push([node.left, currentSum]);
+//     stack.push([node.right, currentSum]);
+//   }
+
+//   return false;
+// }
