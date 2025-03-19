@@ -22,3 +22,29 @@ var frequencySort = function(s) {
     .map(entry => entry[0].repeat(entry[1]))
     .join('');
 };
+
+// Doesno work with big string Why?
+// var frequencySort = function(s) {
+//   const freqMap = new Map();
+
+//   // Подсчёт частоты символов
+//   for (const ch of s) {
+//       freqMap.set(ch, (freqMap.get(ch) || 0) + 1);
+//   }
+
+//   const maxHeap = new MaxHeapAdhoc();
+
+//   // Заполняем макс-хипу (отрицательное значение для симуляции макс-хипы)
+//   for (const [ch, freq] of freqMap.entries()) {
+//       maxHeap.add([-freq, ch.repeat(freq)]);
+//   }
+
+//   let result = "";
+
+//   // Извлекаем символы в порядке убывания частоты
+//   while (maxHeap.heap.length) {
+//       result += maxHeap.poll()[1];
+//   }
+
+//   return result;
+// };
