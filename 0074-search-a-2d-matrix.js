@@ -56,3 +56,68 @@ var searchMatrix = function(matrix, target) {
 //   }
 //   return false;
 // };
+
+
+
+
+// const searchMatrix = function (matrix, target) {
+//   const rowIndex = findRow();
+//   if (rowIndex === true) {
+//     return true;
+//   }
+//   if (rowIndex < 0) {
+//     return false;
+//   }
+
+//   return findNumInRow(matrix[rowIndex]);
+
+//   function findRow() {
+//     let start = 0;
+//     let end = matrix.length - 1;
+
+//     while (start <= end) {
+//       const middle = Math.floor((start + end) / 2);
+//       const potentialRow = matrix[middle];
+//       const firstNumInRow = potentialRow[0];
+//       const lastNumInRow = potentialRow[potentialRow.length - 1];
+
+//       if (firstNumInRow === target || lastNumInRow === target) {
+//         return true;
+//       }
+
+//       if (firstNumInRow < target && lastNumInRow > target) {
+//         return middle;
+//       }
+
+//       if (target > lastNumInRow) {
+//         start = middle + 1;
+//       } else {
+//         end = middle - 1;
+//       }
+//     }
+
+//     return -1;
+//   }
+
+//   function findNumInRow(row) {
+//     let start = 0;
+//     let end = row.length - 1;
+
+//     while (start <= end) {
+//       const middle = Math.floor((start + end) / 2);
+//       const potentialResult = row[middle];
+
+//       if (potentialResult === target) {
+//         return true;
+//       }
+
+//       if (target > potentialResult) {
+//         start = middle + 1;
+//       } else {
+//         end = middle - 1;
+//       }
+//     }
+
+//     return false;
+//   }
+// };
