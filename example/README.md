@@ -338,15 +338,125 @@ Better order to solve problems
 4. 1617 (Count Subtrees With Max Distance Between Cities)
 5. 1125 (Smallest Sufficient Team)
 
-### Prefix sum
-
-303. 
-724. 560. 304. 1314. 268. 
-287. 189. 896. 674. 
-
-### Tips && Trics
-
-102. = 199.
-100. = 101
 
 ### Ru companies
+
+##### Anagramms, Math, Simple nums
+
+242. Valid Anagram
+49. Group Angagrams
+204. Count Primes
+7. Reverse Integer
+136. Single Number
+137. Single Number ii
+
+##### ArraaysHash (Prefix sum)
+
+### Uni
+303. 724. 304. 1314. 268. 287. 189. 674. 
+### Jandex
+560. 
+### Oz
+896. 
+
+##### ArraaysHash 
+
+1. Sum 
+36. Valid Sudoku
+205. Isomorphic Strings
+356. Line reflection
+146. Lru Cache
+2657. Find the Prefix Common
+
+##### TwoPointers
+
+977. Squares of a sorted Array
+283. Move Zeroes
+125. Valid Palendrom
+167. Two Integer Sum II
+161. One Edit Distance
+
+##### SlidingWindow
+
+228. Summary Ranges
+485. Max Consecutive Ones
+3. Longest...
+849. Maximize Distance to closest person
+443. String Compression
+
+##### Linked list
+
+### Сбебс
+19. Remove Nth Node from End of List
+143. Reorder List
+23. Merge k Sorted Lists
+### Jandex
+206. Reverse Linked List
+234. Palindrome Linked List
+### Uni
+876. Middle of the Linked List
+143. Reorder List
+
+##### Binary Search
+
+704. Binary Search
+852. Peak Index in a Mountain Array
+33. Search in Rotated Sorted Array
+34. Find First and Last Position of Element in Sorted Array
+74. Search a 2D Matrix
+69. Sqrt(x)
+658. Find K Closesest Elements
+
+##### Stack, Queue
+
+20. Valid Parentheses
+1249. Minimum Remove to Make Valid Parentheses
+739. Daily Temperatures
+912. Sort an Array
+
+##### Binare Tree
+
+### Uni
+144. 
+199. Binary Tree Right Side View
+### Jandex
+102. Binary Tree Level Order Traversal
+* 101. Symmetric Tree
+100. Same Tree
+112. Path sum
+
+##### Heap
+
+215. Kth Largest Element in an Array
+347. Top K Frequent Elements (не отсортирован)
+912. Sort an Array
+
+##### Intervals
+
+### Uni
+56. Merge Intervals
+252. Meeting Rooms
+1094. Car pooling
+452. Minimum Number of Arrows to Burst Balloons
+347. Top K Frequent Elements (не отсортирован)
+### Avi
+2. Add Two Numbers
+
+##### Graphs
+
+62. Unique paths
+63. Unique paths ii
+64. Minimum Path Sum
+200. Number of Islands
+207. Course Schedule
+210. Course Schedule ii
+130. Surronded Regions
+695. Max Area of Island
+1091. Shortest path in Binary Matrix
+
+##### Backtracking
+
+17. letter combinations of a phone number
+46. Permatations
+51. N-Queens
+22. Generate Parentheses
