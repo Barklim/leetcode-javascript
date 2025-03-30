@@ -270,6 +270,17 @@ Better order to solve problems
 1041. Robot Bounded In Circle
 1572. Matrix Diagonal Sum
 
+## 30 Days of JavaScript
+
+2667. Create Hello World Function
+2620. Counter
+2704. To Be Or Not To Be
+2665. Counter II
+2635. Apply Transform Over Each Element in Array
+2634. Filter Elements from Array
+2626. Array Reduce Transformation
+2629. Function Composition
+
 ### [Strong List](structy.net)
 
 1. Depth-First Search (DFS)
