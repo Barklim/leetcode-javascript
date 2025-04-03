@@ -471,3 +471,81 @@ Better order to solve problems
 46. Permatations
 51. N-Queens
 22. Generate Parentheses
+
+
+### [classic](https://leetcode.com/explore/interview/card/top-interview-questions-easy)
+
+##### Array
+
+26. Remove Duplicates from Sorted Array
+122. Best Time to Buy and Sell Stock II
+189. Rotate Array
+217. Contains Duplicate
+136. Single Number
+350. Intersection of Two Arrays II
+66. Plus One
+283. Move Zeroes
+1. Two Sum
+36. Valid Sudoku
+48. Rotate Image
+
+##### String
+
+344. Reverse String
+7. Reverse Integer
+387. First Unique Character in a String
+242. Valid Anagram
+125. Valid Palindrome
+8. String to Integer (atoi)
+28. Implement strStr()
+14. Longest Common Prefix
+
+##### Linked list
+
+237. Delete Node in a Linked List
+19. Remove Nth Node From End of List
+206. Reverse Linked List
+21. Merge Two Sorted Lists
+234. Palindrome Linked List
+141. Linked List Cycle
+
+##### Trees
+
+104. Maximum Depth of Binary Tree
+98. Validate Binary Search Tree
+101. Symmetric Tree
+102. Binary Tree Level Order Traversal
+108. Convert Sorted Array to Binary Search Tree
+
+##### Sorting and Searching
+
+88. Merge Sorted Array
+278. First Bad Version
+
+##### Dynamic Programming
+
+70. Climbing Stairs
+121. Best Time to Buy and Sell Stock
+53. Maximum Subarray
+198. House Robber
+
+##### Design
+
+384. Shuffle an Array
+155. Min Stack
+
+##### Math
+
+412. Fizz Buzz
+204. Count Primes
+326. Power of Three
+13. Roman to Integer
+
+##### Other
+
+191. Number of 1 Bits
+461. Hamming Distance
+190. Reverse Bits
+118. Pascal's Triangle
+20. Valid Parentheses
+268. Missing Number
