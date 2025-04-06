@@ -9,28 +9,19 @@
  * - The first time the returned function is called, it should return the same result as fn.
  * - Every subsequent time it is called, it should return undefined.
  */
-
-/**
- * @param {Function} fn
- * @return {Function}
- */
 var once = function(fn) {
-  return (...args) => fn && [fn(...args), fn = undefined][0];
+    
+    return function(...args){
+        
+    }
 };
 
-// var once = function(fn) {
-    
-//   let hasBeenCalled = false;
-//   let result;
+let fn = (a,b,c) => (a + b + c)
+let onceFn = once(fn)
 
-//   return function(...args) {
-//     if (!hasBeenCalled) {
-//       result = fn(...args);
-//       hasBeenCalled = true;
-//       return result;
-//     } else {
-//       return undefined;
-//     }
-//   }
+ex1 = onceFn(1,2,3); // 6
+ex2 = onceFn(2,3,6); // returns undefined without calling fn
 
-// };
+console.log(ex1)
+console.log(ex2)
+

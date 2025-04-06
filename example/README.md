@@ -280,6 +280,15 @@ Better order to solve problems
 2634. Filter Elements from Array
 2626. Array Reduce Transformation
 2629. Function Composition
+2666. Allow One Function Call
+2623. Memoize
+
+2677. Chunk Array
+2631. Group By
+2724. Sort By
+2722. Join Two Arrays by ID
+2625. Flatten Deeply Nested Array
+2705. Compact Object
 
 ### [Strong List](structy.net)
 
